@@ -165,8 +165,11 @@ header {
         width: 100%;
         .header-content-inner {
             h1 {
-                font-weight: 700;
+                font-family: 'Playfair Display', Georgia, serif;
+                font-weight: 900;
+                font-size: 3rem;
                 text-transform: uppercase;
+                letter-spacing: 2px;
                 margin-top: 0;
                 margin-bottom: 0;
             }
@@ -194,6 +197,9 @@ header {
                 max-width: 1000px;
                 margin-left: auto;
                 margin-right: auto;
+                h1 {
+                    font-size: 5rem;
+                }
                 p {
                     font-size: 18px;
                     max-width: 80%;
